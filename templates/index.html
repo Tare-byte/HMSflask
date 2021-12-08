@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+   <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+
+</head>
+<body>
+        <h1><span class="cardio">CARDIO</span><span class="health">HEALTH</span> MANAGEMENT <span class="system">SYSTEM</span></h1>
+
+    <!-- <form action="/system" method="post">
+        <h1>CARDIOHEALTH HOSPITAL MANAGEMENT SYSTEM</h1>
+        <h2>Welcome to the alternative of a queue!</h2>
+
+        <input type="text" name="name" placeholder="name">
+        <br><br>
+        <input type="text" name="email" placeholder="email">
+        <br><br> 
+        <input type="password" name="password" placeholder="password">
+        <br><br>
+        <input type="submit" placeholder="submit">
+    </form> -->
+
+    <center>
+
+
+        <a href="/patients">
+            <button type="button " class="pry">Sign in as patients</button>
+        </a>
+        <a href="/doctor-login">
+            <button type="button" class="sec" >Sign in as Doctor</button>
+        </a>
+    </center>
+</body>
+</html>

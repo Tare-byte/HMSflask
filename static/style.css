@@ -1,0 +1,53 @@
+body {
+    background-image: url('/static/img/stethoscope.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10%;
+}
+h1{
+    color:antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+    text-align: center;
+}
+
+.cardio{
+    color: blue;
+    font-size: 300%;
+}
+.health{
+    color: red;
+    font-size: 300%;
+}
+
+.system{
+    margin-left: 80%;
+}
+
+.pry{
+    background-color: #4CAF50;
+    border:none;
+    border-radius: 8px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.sec{
+    background-color: #1057f0;
+    border:none;
+    border-radius: 8px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button {
+    padding: 20px 75px;
+    margin-left: 20px;
+    margin-top: 15%;
+}

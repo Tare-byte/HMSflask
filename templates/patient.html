@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>patient</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='styles.css')}}">
+</head>
+<body>
+    
+    <div>
+        <p>Name</p>
+        <p id="name">{{patient.name}}</p>
+    </div>
+    <div>
+        <p>Email</p>
+        <p id="email">{{patient.email}}</p>
+    </div>
+    <div>
+        <p>Age</p>
+        <p id="Age">{{patient.Age}}</p>
+    </div>
+    <div>
+        <p>Phone number</p>
+        <p id="Phone_number">{{patient.Phone_number}}</p>
+    </div>
+    <div>
+        <p>Gender</p>
+        <p id="Gender">{{patient.Gender}}</p>
+    </div>
+
+    <a href="/appointments">Book an appointment</a>
+        
+</body>
+</html>
